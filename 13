@@ -1,0 +1,11 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main() {
+    double l, g = 9.81, t;
+    cin >> l;
+    t = 2 * M_PI * sqrt(l / g);
+    cout << t;
+}
